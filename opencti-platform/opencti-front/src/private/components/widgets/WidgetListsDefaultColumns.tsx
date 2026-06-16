@@ -95,7 +95,6 @@ const availableWidgetColumns: Record<string, WidgetColumn[]> = {
     { attribute: 'information_types', label: 'Request for information types' },
     { attribute: 'objectAssignee' },
     { attribute: 'objectParticipant' },
-    { attribute: 'container_content', label: 'Content' },
   ],
   'Case-Rft': [
     { attribute: 'priority' },
@@ -103,7 +102,6 @@ const availableWidgetColumns: Record<string, WidgetColumn[]> = {
     { attribute: 'takedown_types', label: 'Request for takedown types' },
     { attribute: 'objectAssignee' },
     { attribute: 'objectParticipant' },
-    { attribute: 'container_content', label: 'Content' },
   ],
   Task: [
     { attribute: 'due_date', label: 'Due date' },
@@ -113,7 +111,6 @@ const availableWidgetColumns: Record<string, WidgetColumn[]> = {
   Incident: [
     { attribute: 'incident_type' },
     { attribute: 'severity', label: 'Severity' },
-    { attribute: 'container_content', label: 'Content' },
     { attribute: 'source', label: 'Source' },
     { attribute: 'objective', label: 'Objective' },
     { attribute: 'first_seen', label: 'First seen' },
@@ -158,7 +155,8 @@ const availableWidgetColumns: Record<string, WidgetColumn[]> = {
     { attribute: 'gender', label: 'Gender' },
     { attribute: 'marital_status', label: 'Marital status' },
     { attribute: 'job_title', label: 'Job title' },
-
+    { attribute: 'place_of_birth', label: 'Place of Birth' },
+    { attribute: 'ethnicity', label: 'Ethnicity' },
   ],
   'Threat-Actor-Group': [
     { attribute: 'threat_actor_types', label: 'Threat actor types' },
